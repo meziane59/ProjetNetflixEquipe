@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrateur\\Documents\\formation032022\\Netflix\\projetnetflixequipe\\NetflixReactEntity\\NetflixReactEntity\\NetflixReactEntity.csproj": {}
+    "C:\\Users\\Administrateur\\Desktop\\Projet Fil Rouge\\NetflixReactEntity\\NetflixReactEntity\\NetflixReactEntity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrateur\\Documents\\formation032022\\Netflix\\projetnetflixequipe\\NetflixReactEntity\\NetflixReactEntity\\NetflixReactEntity.csproj": {
+    "C:\\Users\\Administrateur\\Desktop\\Projet Fil Rouge\\NetflixReactEntity\\NetflixReactEntity\\NetflixReactEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrateur\\Documents\\formation032022\\Netflix\\projetnetflixequipe\\NetflixReactEntity\\NetflixReactEntity\\NetflixReactEntity.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\Projet Fil Rouge\\NetflixReactEntity\\NetflixReactEntity\\NetflixReactEntity.csproj",
         "projectName": "NetflixReactEntity",
-        "projectPath": "C:\\Users\\Administrateur\\Documents\\formation032022\\Netflix\\projetnetflixequipe\\NetflixReactEntity\\NetflixReactEntity\\NetflixReactEntity.csproj",
+        "projectPath": "C:\\Users\\Administrateur\\Desktop\\Projet Fil Rouge\\NetflixReactEntity\\NetflixReactEntity\\NetflixReactEntity.csproj",
         "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrateur\\Documents\\formation032022\\Netflix\\projetnetflixequipe\\NetflixReactEntity\\NetflixReactEntity\\obj\\",
+        "outputPath": "C:\\Users\\Administrateur\\Desktop\\Projet Fil Rouge\\NetflixReactEntity\\NetflixReactEntity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

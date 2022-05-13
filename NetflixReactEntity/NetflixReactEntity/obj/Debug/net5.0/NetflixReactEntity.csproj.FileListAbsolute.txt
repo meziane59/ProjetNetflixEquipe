@@ -26,3 +26,31 @@ C:\Users\Administrateur\Documents\formation032022\Netflix\projetnetflixequipe\Ne
 C:\Users\Administrateur\Documents\formation032022\Netflix\projetnetflixequipe\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\ref\NetflixReactEntity.dll
 C:\Users\Administrateur\Documents\formation032022\Netflix\projetnetflixequipe\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.pdb
 C:\Users\Administrateur\Documents\formation032022\Netflix\projetnetflixequipe\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.genruntimeconfig.cache
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\appsettings.json
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\NetflixReactEntity.exe
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\NetflixReactEntity.deps.json
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\NetflixReactEntity.runtimeconfig.json
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\NetflixReactEntity.runtimeconfig.dev.json
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\NetflixReactEntity.dll
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\ref\NetflixReactEntity.dll
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\NetflixReactEntity.pdb
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.csproj.AssemblyReference.cache
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\scopedcss\bundle\NetflixReactEntity.styles.css
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\staticwebassets\NetflixReactEntity.StaticWebAssets.Manifest.cache
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.RazorTargetAssemblyInfo.cache
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.csproj.CopyComplete
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.dll
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\ref\NetflixReactEntity.dll
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.pdb
+C:\Users\Administrateur\Desktop\Projet Fil Rouge\NetflixReactEntity\NetflixReactEntity\obj\Debug\net5.0\NetflixReactEntity.genruntimeconfig.cache
