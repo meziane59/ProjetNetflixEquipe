@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /**    **/
+=======
+/**  Créer les tables  **/
+>>>>>>> 3651fe3 (insert)
 
 
 CREATE TABLE type_utilisateur(
@@ -9,6 +13,7 @@ CREATE TABLE type_utilisateur(
 
 CREATE TABLE utilisateur (
     	id_utilisateur int  identity(1,1) NOT NULL,
+<<<<<<< HEAD
     	nom_profil VARCHAR(20) NOT NULL,
 	prenom VARCHAR(20) NOT NULL,
 	date_naissance datetime NOT NULL,
@@ -16,13 +21,25 @@ CREATE TABLE utilisateur (
 	telephone VARCHAR(20),
 	mdp VARCHAR(20) NOT NULL,
     	OrderNumber int NOT NULL,
+=======
+    	nom VARCHAR(20) NOT NULL,
+	prenom VARCHAR(20) NOT NULL,
+	date_naissance datetime NOT NULL,
+	email VARCHAR(100) NOT NULL,
+	telephone VARCHAR(20),
+	mdp VARCHAR(20) NOT NULL,
+>>>>>>> 3651fe3 (insert)
 	Primary key clustered(id_utilisateur asc),
     	id_type_utilisateur int FOREIGN KEY REFERENCES type_utilisateur(id_type_utilisateur)
 );
 
 create table droits_utilisateur (
  	id_droits_utilisateurs int  identity(1,1) NOT NULL,
+<<<<<<< HEAD
 	nom_droits VARCHAR,
+=======
+	nom_droits VARCHAR(MAX),
+>>>>>>> 3651fe3 (insert)
 	Primary key clustered(id_droits_utilisateurs asc)
 );
 
@@ -51,8 +68,13 @@ CREATE TABLE Abonnement(
 
 create table questions_reponses (
  	id_question_reponse int  identity(1,1) NOT NULL,
+<<<<<<< HEAD
 	question VARCHAR NOT NULL,
 	reponse VARCHAR,
+=======
+	question VARCHAR(MAX) NOT NULL,
+	reponse VARCHAR(MAX),
+>>>>>>> 3651fe3 (insert)
 	Primary key clustered(id_question_reponse asc)
 );
 
