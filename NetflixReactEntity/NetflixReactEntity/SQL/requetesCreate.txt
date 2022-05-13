@@ -1,3 +1,6 @@
+/**    **/
+
+
 CREATE TABLE type_utilisateur(
     	id_type_utilisateur int  identity(1,1) NOT NULL,
     	is_admin bit,
