@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/**    **/
-=======
 /**  Créer les tables  **/
->>>>>>> 3651fe3 (insert)
 
 
 CREATE TABLE type_utilisateur(
@@ -13,33 +9,20 @@ CREATE TABLE type_utilisateur(
 
 CREATE TABLE utilisateur (
     	id_utilisateur int  identity(1,1) NOT NULL,
-<<<<<<< HEAD
     	nom_profil VARCHAR(20) NOT NULL,
-	prenom VARCHAR(20) NOT NULL,
-	date_naissance datetime NOT NULL,
-	email VARCHAR(20) NOT NULL,
-	telephone VARCHAR(20),
-	mdp VARCHAR(20) NOT NULL,
-    	OrderNumber int NOT NULL,
-=======
-    	nom VARCHAR(20) NOT NULL,
 	prenom VARCHAR(20) NOT NULL,
 	date_naissance datetime NOT NULL,
 	email VARCHAR(100) NOT NULL,
 	telephone VARCHAR(20),
 	mdp VARCHAR(20) NOT NULL,
->>>>>>> 3651fe3 (insert)
+    	OrderNumber int NOT NULL,
 	Primary key clustered(id_utilisateur asc),
     	id_type_utilisateur int FOREIGN KEY REFERENCES type_utilisateur(id_type_utilisateur)
 );
 
 create table droits_utilisateur (
  	id_droits_utilisateurs int  identity(1,1) NOT NULL,
-<<<<<<< HEAD
-	nom_droits VARCHAR,
-=======
 	nom_droits VARCHAR(MAX),
->>>>>>> 3651fe3 (insert)
 	Primary key clustered(id_droits_utilisateurs asc)
 );
 
@@ -68,13 +51,8 @@ CREATE TABLE Abonnement(
 
 create table questions_reponses (
  	id_question_reponse int  identity(1,1) NOT NULL,
-<<<<<<< HEAD
-	question VARCHAR NOT NULL,
-	reponse VARCHAR,
-=======
-	question VARCHAR(MAX) NOT NULL,
-	reponse VARCHAR(MAX),
->>>>>>> 3651fe3 (insert)
+	question VARCHAR(max) NOT NULL,
+	reponse VARCHAR(max),
 	Primary key clustered(id_question_reponse asc)
 );
 
@@ -96,5 +74,78 @@ CREATE TABLE utilisateur_profil (
 	REFERENCES utilisateur(id_utilisateur)
 	, CONSTRAINT utilisateur_profil_profil_FK FOREIGN KEY (id_profil)
 	REFERENCES profil(id_profil)
+);
+
+CREATE TABLE type_film (
+id_type_film INT IDENTITY (1, 1) NOT NULL,
+nom_type_film VARCHAR (50) NOT NULL,
+PRIMARY KEY CLUSTERED (id_type_film ASC)
+);
+
+
+CREATE TABLE film (
+id_film INT IDENTITY (1, 1) NOT NULL,
+titre VARCHAR (50) NOT NULL,
+annee_film VARCHAR(4),
+commentaire_film VARCHAR (MAX),
+PRIMARY KEY CLUSTERED (id_film ASC),
+id_type_film int FOREIGN KEY REFERENCES type_film(id_type_film)
+);
+
+
+
+CREATE TABLE episode (
+id_episode INT IDENTITY(1, 1) NOT NULL,
+nom_episode VARCHAR(50),
+commentaire_episode VARCHAR(MAX),
+annee_episode VARCHAR(4),
+realisateur VARCHAR(50),
+duree int,
+age_visualisation VARCHAR(3),
+lien_video VARCHAR(max),
+nb_vues int,
+PRIMARY KEY CLUSTERED (id_episode ASC),
+id_film int FOREIGN KEY REFERENCES film(id_film)
+);
+
+
+
+CREATE TABLE film_categorie (
+id_film_categorie INT IDENTITY (1, 1) NOT NULL,
+nom_categorie VARCHAR (20)
+);
+
+
+
+
+CREATE TABLE film_film_categorie (
+id_film int NOT NULL,
+id_film_categorie int NOT NULL,
+CONSTRAINT film_film_categorie_PK PRIMARY KEY (id_film, id_film_categorie),
+CONSTRAINT film_film_categorie_type_film_FK FOREIGN KEY (id_type_film)
+REFERENCES type_film(id_type_film),
+CONSTRAINT film_film_categorie_film_FK FOREIGN KEY (id_film)
+REFERENCES film(id_film)
+);
+
+
+
+
+CREATE TABLE saison (
+id_saison INT IDENTITY (1, 1) NOT NULL,
+nom_saison VARCHAR (50),
+commentaire_saison VARCHAR (MAX)
+);
+
+
+
+create table profil_film(
+id_profil int not null,
+id_film int not null,
+constraint profil_film_pk primary key(id_profil ,id_film),
+constraint profil_film_profil_fk foreign key (id_profil)
+references profil(id_profil),
+constraint profil_film_film_fk foreign key (id_film)
+references film(id_film)
 );
 	
