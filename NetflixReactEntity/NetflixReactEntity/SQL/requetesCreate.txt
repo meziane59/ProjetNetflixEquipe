@@ -1,4 +1,4 @@
-/**  Créer les tables  **/
+ /**  Créer les tables  **/
 
 
 CREATE TABLE type_utilisateur(
@@ -94,6 +94,13 @@ id_type_film int FOREIGN KEY REFERENCES type_film(id_type_film)
 
 
 
+CREATE TABLE saison (
+id_saison INT IDENTITY (1, 1) NOT NULL,
+nom_saison VARCHAR (50),
+commentaire_saison VARCHAR (MAX),
+PRIMARY KEY CLUSTERED (id_saison ASC)
+);
+
 CREATE TABLE episode (
 id_episode INT IDENTITY(1, 1) NOT NULL,
 nom_episode VARCHAR(50),
@@ -105,38 +112,28 @@ age_visualisation VARCHAR(3),
 lien_video VARCHAR(max),
 nb_vues int,
 PRIMARY KEY CLUSTERED (id_episode ASC),
-id_film int FOREIGN KEY REFERENCES film(id_film)
+id_film int FOREIGN KEY REFERENCES film(id_film),
+id_saison int FOREIGN KEY REFERENCES saison(id_saison)
 );
 
 
 
 CREATE TABLE film_categorie (
 id_film_categorie INT IDENTITY (1, 1) NOT NULL,
-nom_categorie VARCHAR (20)
+nom_categorie VARCHAR (20),
+PRIMARY KEY CLUSTERED (id_film_categorie ASC)
 );
-
-
 
 
 CREATE TABLE film_film_categorie (
 id_film int NOT NULL,
 id_film_categorie int NOT NULL,
 CONSTRAINT film_film_categorie_PK PRIMARY KEY (id_film, id_film_categorie),
-CONSTRAINT film_film_categorie_type_film_FK FOREIGN KEY (id_type_film)
-REFERENCES type_film(id_type_film),
 CONSTRAINT film_film_categorie_film_FK FOREIGN KEY (id_film)
-REFERENCES film(id_film)
+REFERENCES film(id_film),
+CONSTRAINT film_film_categorie_film_categorie_FK FOREIGN KEY (id_film_categorie)
+REFERENCES film_categorie(id_film_categorie)
 );
-
-
-
-
-CREATE TABLE saison (
-id_saison INT IDENTITY (1, 1) NOT NULL,
-nom_saison VARCHAR (50),
-commentaire_saison VARCHAR (MAX)
-);
-
 
 
 create table profil_film(
@@ -148,4 +145,4 @@ references profil(id_profil),
 constraint profil_film_film_fk foreign key (id_film)
 references film(id_film)
 );
-	
+	 

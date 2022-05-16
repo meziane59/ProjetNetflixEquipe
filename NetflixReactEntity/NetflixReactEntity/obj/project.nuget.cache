@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TXr19ZBbvD6fO+z1SJfrt7E/TxSQeLyDtSiawSMIEKK3HiOKyHYiFLYnr5ijDFM1Hq+1Rgldxt1LeiE+W+H1XA==",
+  "dgSpecHash": "j8o7RadApheFmrJAa52qie2yAPcI/j8iFuPmloFZgidWE7G1WKfli9dBbgk8ivU/3s+gtW+jdzTcw3OonuHEEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrateur\\Documents\\formation032022\\Netflix\\projetnetflixequipe\\NetflixReactEntity\\NetflixReactEntity\\NetflixReactEntity.csproj",
+  "projectFilePath": "C:\\Users\\Administrateur\\Documents\\formation032022\\netflixprojet\\ProjetNetflixEquipe\\NetflixReactEntity\\NetflixReactEntity\\NetflixReactEntity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Administrateur\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
