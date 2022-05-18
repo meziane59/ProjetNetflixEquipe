@@ -10,7 +10,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Fichiers divers",
       "ColorIndex": -1
+    },
+    "310b045b-f161-4ef9-a5c5-48464e0a939d": {
+      "ProjectGuid": "310b045b-f161-4ef9-a5c5-48464e0a939d",
+      "DisplayName": "NetflixApi",
+      "ColorIndex": 1
+    },
+    "4bc49ec6-28a2-4dc2-bcd0-79a9777570c2": {
+      "ProjectGuid": "4bc49ec6-28a2-4dc2-bcd0-79a9777570c2",
+      "DisplayName": "NetflixReact",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

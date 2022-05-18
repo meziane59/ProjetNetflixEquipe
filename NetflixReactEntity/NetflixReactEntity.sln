@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixReactEntity", "NetflixReactEntity\NetflixReactEntity.csproj", "{172CD219-4B37-4818-A8F4-DAC3E7A805A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetflixReactEntity", "NetflixReactEntity\NetflixReactEntity.csproj", "{172CD219-4B37-4818-A8F4-DAC3E7A805A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetflixApi", "NetflixApi\NetflixApi.csproj", "{310B045B-F161-4EF9-A5C5-48464E0A939D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{172CD219-4B37-4818-A8F4-DAC3E7A805A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{172CD219-4B37-4818-A8F4-DAC3E7A805A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{172CD219-4B37-4818-A8F4-DAC3E7A805A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310B045B-F161-4EF9-A5C5-48464E0A939D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310B045B-F161-4EF9-A5C5-48464E0A939D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310B045B-F161-4EF9-A5C5-48464E0A939D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310B045B-F161-4EF9-A5C5-48464E0A939D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
