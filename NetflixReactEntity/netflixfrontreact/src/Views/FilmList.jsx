@@ -27,11 +27,11 @@
 // }
 //export default FilmList;
 
-import React from 'react';
+import {Component} from 'react';
 
 import axios from 'axios';
 
-export default class FilmList extends React.Component {
+export default class FilmList extends Component {
   state = {
     films: []
   }
