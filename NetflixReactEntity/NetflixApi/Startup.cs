@@ -48,7 +48,7 @@ namespace NetflixApi
                 //    o.WithOrigins("192.168.0.1").AllowAnyMethod().AllowAnyHeader();
                 //});
             });
-            services.AddDbContext<masterContext>();
+          //  services.AddDbContext<masterContext>();
         }
 
 
