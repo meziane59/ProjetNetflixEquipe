@@ -13,7 +13,7 @@ namespace NetflixApi.Tools
         public DbSet<Film> Films { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\netflixDB;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source = (localdb)\netflixDB; Integrated Security = True");
         }
     }
 }

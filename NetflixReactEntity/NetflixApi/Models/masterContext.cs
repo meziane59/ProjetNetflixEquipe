@@ -37,7 +37,7 @@ namespace NetflixApi.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Data Source=(localdb)\netflixDB;Integrated Security=True");
+                optionsBuilder.UseSqlServer(@"Data Source = (localdb)\netflixDB; Integrated Security = True");
             }
         }
 

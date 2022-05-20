@@ -1,54 +1,38 @@
-// import React, {useState,  useEffect } from 'react';
-// import Api from '../Api';
-
-// const FilmList = () =>{
-//     const [films, setFilms] = useState([]);
-//     const [isMounted, setIsMounted] = useState(false);
-
-//     useEffect(() =>{
-//         !isMounted &&
-//        Api.getFilm().then((json)=>{
-//             setFilms(json);
-//             setIsMounted(true);
-//         });
-//     },[isMounted]);
-
-//     return(        
-//         <ul>
-//             {films && films.map((film,index)=>{
-//                 return(
-//                     <li key={index}>
-//                         {film.titre}
-//                     </li>
-//                 );
-//             })}
-//         </ul>
-//     );
-// }
-//export default FilmList;
-
 import {Component} from 'react';
 
 import axios from 'axios';
+import FilmCard from './FilmCard';
+
 
 export default class FilmList extends Component {
   state = {
-    films: []
+    Film:[]
   }
 
   componentDidMount() {
-    axios.get(`http://localhost:5000/api/Films`)
+     axios.get(`http://localhost:5000/api/Films`)
       .then(res => {
-        const films = res.data;
-        this.setState({ films });
+        const film = res.data;
+        this.setState({ film });
       })
   }
 
   render() {
     return (
-      <ul>
-        { this.state.films.map(film => <li>{film.titre}</li>)}
-      </ul>
+      //  <ul>
+      //   {/* { this.state.films.map(film => <div><li>{film.titre}</li><li>{film.anneeFilm}</li><li>{film.commentaireFilm}</li></div>)} */}
+      // <FilmCard Film={this.state.films} />
+      // </ul>
+
+  <div>
+      <h1 className="center">Mes films</h1>
+      <div className="container"> 
+            <div className="row"> 
+            <FilmCard Film={this.state.Film} />
+            </div>
+      </div>
+    </div>  
+     
     )
   }
 }
